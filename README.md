@@ -1,46 +1,32 @@
-\# GTA VI Discord Countdown Bot
+# GTA VI Discord Countdown Bot
 
+A simple Discord bot that provides a live countdown to the release of **GTA VI**.
 
+---
 
-A simple Discord bot that counts down to the release of GTA VI.
+## Features
 
+- `!gta6` command to show the time remaining until release  
+- Automatically updates the bot’s status with a live countdown  
 
+---
 
-\## Features
+## Requirements
 
-\- !gta6 command to show time remaining
+- Python 3.10 or newer  
+- [discord.py](https://pypi.org/project/discord.py/) library  
 
-\- Updates the bot status with a live countdown
+---
 
+## Setup Instructions
 
+1. **Install dependencies:**  
+   ```bash
+   pip install discord.py
+Set your Discord bot token as an environment variable:
 
-\## Requirements
-
-\- Python 3.10 or newer
-
-\- discord.py
-
-
-
-\## Setup
-
-1\. Install dependencies:
-
-pip install discord.py
-
-
-
-
-
-2\. Set your Discord bot token as an environment variable:
-
-DISCORD\_TOKEN=your\_token\_here
-
-
-
-
-
-3\. Run the bot:
+export DISCORD_TOKEN=your_token_here  # macOS/Linux
+setx DISCORD_TOKEN "your_token_here"  # Windows (restart terminal after)
+Run the bot:
 
 python bot.py
-
